@@ -15,6 +15,7 @@ import { AppComponent } from './app.component';
     FormsModule,
     ReactiveFormsModule
   ],
+  provide[disableRipple]="true";
   providers: [],
   bootstrap: [AppComponent]
 })
